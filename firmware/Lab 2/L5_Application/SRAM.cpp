@@ -1,9 +1,9 @@
-#include "SRAM.h"
+#include "SRAM.hpp"
 
 
-char DISABLE_PERIPHERALS = 0; //sends 0 to cmd register to disable student design
-char START_SRAM_READ = 9; //Pass in 9 so binary values get passed to student design. 0001001
-char START_SRAM_WRITE = 17; //Pass 17 to right so binary value, 0010001. 
+const char DISABLE_PERIPHERALS = 0; //sends 0 to cmd register to disable student design
+const char START_SRAM_READ = 9; //Pass in 9 so binary values get passed to student design. 0001001
+const char START_SRAM_WRITE = 17; //Pass 17 to right so binary value, 0010001. 
 
 
 GPIO A0(P1_29);
@@ -88,7 +88,7 @@ void toggleClock(void)
 
 void write(char byte)
 {
-    printf("This is byte: %d\n\n\n", byte);
+    printf("This is byte being written: %d\n\n\n", byte);
     bus_e.setHigh();
 
     //A-->B
@@ -132,7 +132,7 @@ char read(void)
     bus_e.setLow(); //Enable deivce
 
 
-    char byte; //delcare the byte
+    char byte; //declare the byte
 
     byte = A0.read(); //begin to read the memory location and set value to byte
     byte = byte | (A1.read() << 1); //Shifting information to byte

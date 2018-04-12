@@ -85,7 +85,7 @@
 000128c2 t create_chain
 0001face t cst.6348
 0001fb48 t CSWTCH.70
-00020e44 T _ctype_
+00020e4c T _ctype_
 00019de0 T __cvt
 0001804a T __cxa_guard_acquire
 00018062 T __cxa_guard_release
@@ -97,8 +97,8 @@
 000100cc T __data_section_table
 000100d8 T __data_section_table_end
 2007c828 B _daylight
-00020cec t _DAYS_BEFORE_MONTH
-00020cbc t DAYS_IN_MONTH
+00020cf8 t _DAYS_BEFORE_MONTH
+00020cc8 t DAYS_IN_MONTH
 000171be T delay_ms
 00017194 T delay_us
 00012a50 t dir_find.part.9
@@ -133,10 +133,10 @@
 0001f828 T __eqdf2
 2007c834 B errno
 000191d4 T __errno
-000210a0 R _etext
+000210a8 R _etext
 0001fa40 t ExCvt
-000210a0 R __exidx_end
-00021098 T __exidx_start
+000210a8 R __exidx_end
+000210a0 T __exidx_start
 00014f4c T _exit
 00019e98 T __exponent
 00018828 T __extendsfdf2
@@ -182,8 +182,8 @@
 000130ec T f_open
 00017300 t for_each_alarm_callback
 000172dc t for_each_recur_alarm_callback
-00020db4 t fpi.6129
-00020dc8 t fpinan.6165
+00020dc0 t fpi.6129
+00020dd4 t fpinan.6165
 0001321a T f_read
 00019678 T free
 00019c28 T _free_r
@@ -220,7 +220,7 @@
 2007c640 b g_input_dev_fptr
 2007c734 b g_list_recur_alarms
 2007c744 b g_list_timed_alarms
-00020cb0 T _global_impure_ptr
+00020cbc T _global_impure_ptr
 2007c148 D __global_locale
 00017ce0 t _GLOBAL__sub_I_DISABLE_PERIPHERALS
 000177fc t _GLOBAL__sub_I_sw1
@@ -260,8 +260,8 @@
 2007c0e8 d impure_data
 2007c0e4 D _impure_ptr
 00014f60 T _init
-00021098 T __init_array_end
-00021090 T __init_array_start
+000210a0 T __init_array_end
+00021098 T __init_array_start
 2007c830 b initial_env
 2007c648 b initialized.8352
 0001aa64 T iprintf
@@ -348,10 +348,10 @@
 00011728 t mesh_update_rte_scores
 00011648 t mesh_update_soft_timers
 00019900 T mktime
-00020d1c T __month_lengths
+00020d28 T __month_lengths
 000123c4 t move_window
-00020f58 T __mprec_bigtens
-00020f80 T __mprec_tens
+00020f60 T __mprec_bigtens
+00020f88 T __mprec_tens
 2007c730 b mp_tlm_component_list
 000100f0 t _MSP
 2007c728 b mSpi0Lock
@@ -397,13 +397,13 @@
 0001209c t nrf_driver_send
 000120f4 t nrf_irq_callback
 2007c64c b openfiles
-00021048 t p05.6047
+00021050 t p05.6047
 00010148 W PLL0_IRQHandler
 00010148 W PLL1_IRQHandler
 0001ddc8 T __pow5mult
 00013d78 T power_off
-00021090 T __preinit_array_end
-00021090 T __preinit_array_start
+00021098 T __preinit_array_end
+00021098 T __preinit_array_start
 2007c824 b prev_tzenv
 0001aa64 T printf
 0001a374 T _printf_common
@@ -473,9 +473,9 @@
 00015e16 T __set_MSP
 00015e10 T __set_PSP
 0001adf4 T setvbuf
-00020c50 T __sf_fake_stderr
-00020c70 T __sf_fake_stdin
-00020c90 T __sf_fake_stdout
+00020c5c T __sf_fake_stderr
+00020c7c T __sf_fake_stdin
+00020c9c T __sf_fake_stdout
 000191e0 T __sflush_r
 000193bc T __sfmoreglue
 00019448 T __sfp
@@ -543,8 +543,8 @@
 000195a0 T __swhatbuf_r
 0001b0a2 T __swrite
 0001c514 T __swsetup_r
-00021098 T __symbol_table_end
-00021098 T __symbol_table_start
+000210a0 T __symbol_table_end
+000210a0 T __symbol_table_start
 00012350 t sync_fs
 00012342 t sync_window
 000122fc t sync_window.part.1
@@ -566,7 +566,7 @@
 00010148 W TIMER2_IRQHandler
 00010148 W TIMER3_IRQHandler
 2007c82c B _timezone
-00020de0 t tinytens
+00020de8 t tinytens
 00017128 T tlm_component_add
 000170f4 t tlm_component_find_by_name
 00017104 T tlm_component_get_by_name
@@ -855,10 +855,10 @@
 000208c0 V typeinfo for Uart3
 00020784 T typeinfo for CharDev
 00020750 T typeinfo for UartDev
-00020b1c T typeinfo for __cxxabiv1::__class_type_info
-00020b78 T typeinfo for __cxxabiv1::__si_class_type_info
-00020bd8 T typeinfo for __cxxabiv1::__vmi_class_type_info
-00020c38 T typeinfo for std::type_info
+00020b28 T typeinfo for __cxxabiv1::__class_type_info
+00020b84 T typeinfo for __cxxabiv1::__si_class_type_info
+00020be4 T typeinfo for __cxxabiv1::__vmi_class_type_info
+00020c44 T typeinfo for std::type_info
 000207c4 V typeinfo name for SingletonTemplate<Uart0>
 0002082c V typeinfo name for SingletonTemplate<Uart2>
 00020894 V typeinfo name for SingletonTemplate<Uart3>
@@ -867,17 +867,17 @@
 000208b8 V typeinfo name for Uart3
 0002078c T typeinfo name for CharDev
 0002075c T typeinfo name for UartDev
-00020b28 T typeinfo name for __cxxabiv1::__class_type_info
-00020b84 T typeinfo name for __cxxabiv1::__si_class_type_info
-00020be4 T typeinfo name for __cxxabiv1::__vmi_class_type_info
-00020c40 T typeinfo name for std::type_info
+00020b34 T typeinfo name for __cxxabiv1::__class_type_info
+00020b90 T typeinfo name for __cxxabiv1::__si_class_type_info
+00020bf0 T typeinfo name for __cxxabiv1::__vmi_class_type_info
+00020c4c T typeinfo name for std::type_info
 00020810 V vtable for Uart0
 00020878 V vtable for Uart2
 000208e0 V vtable for Uart3
 00020798 T vtable for CharDev
 00020768 T vtable for UartDev
-00020b4c T vtable for __cxxabiv1::__class_type_info
-00020bac T vtable for __cxxabiv1::__si_class_type_info
-00020c0c T vtable for __cxxabiv1::__vmi_class_type_info
+00020b58 T vtable for __cxxabiv1::__class_type_info
+00020bb8 T vtable for __cxxabiv1::__si_class_type_info
+00020c18 T vtable for __cxxabiv1::__vmi_class_type_info
 2007c6e8 V Storage::getSDDrive()::pSDCardDrive
 2007c6f0 V Storage::getFlashDrive()::pFlashDrive

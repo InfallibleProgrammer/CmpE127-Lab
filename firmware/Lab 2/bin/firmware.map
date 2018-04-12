@@ -3223,7 +3223,7 @@ LOAD /home/akashv/Documents/CmpE127/SJSU-Dev/tools/gcc-arm-none-eabi-6-2017-q2-u
 LOAD /home/akashv/Documents/CmpE127/SJSU-Dev/tools/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/libc_nano.a
 END GROUP
 
-.text           0x0000000000010000    0x1341c
+.text           0x0000000000010000    0x13424
  FILL mask 0xff
  *(.isr_vector)
  .isr_vector    0x0000000000010000       0xcc obj//home/akashv/Documents/CmpE127/SJSU-Dev/firmware/lib/L0_LowLevel/source/startup.o
@@ -3231,7 +3231,7 @@ END GROUP
                 0x00000000000100cc                . = ALIGN (0x4)
                 0x00000000000100cc                __section_table_start = .
                 0x00000000000100cc                __data_section_table = .
-                0x00000000000100cc        0x4 LONG 0x23424 LOADADDR (.data)
+                0x00000000000100cc        0x4 LONG 0x2342c LOADADDR (.data)
                 0x00000000000100d0        0x4 LONG 0x2007c000 ADDR (.data)
                 0x00000000000100d4        0x4 LONG 0x300 SIZEOF (.data)
                 0x00000000000100d8                __data_section_table_end = .
@@ -4992,196 +4992,194 @@ END GROUP
  .rodata.logger_write_to_file.str1.1
                 0x0000000000020928       0x51 obj//home/akashv/Documents/CmpE127/SJSU-Dev/firmware/lib/L3_Utils/src/file_logger.o
  .rodata.main.str1.1
-                0x0000000000020979      0x14d obj/L5_Application/main.o
-                                        0x150 (size before relaxing)
+                0x0000000000020979      0x14e obj/L5_Application/main.o
+                                        0x151 (size before relaxing)
  .rodata._Z3movc.str1.1
-                0x0000000000020ac6       0x1b obj/L5_Application/SRAM.o
+                0x0000000000020ac7       0x1b obj/L5_Application/SRAM.o
  .rodata._Z3movcc.str1.1
-                0x0000000000020ae1       0x1c obj/L5_Application/SRAM.o
+                0x0000000000020ae2       0x1c obj/L5_Application/SRAM.o
  .rodata._Z5writec.str1.1
-                0x0000000000020afd       0x14 obj/L5_Application/SRAM.o
+                0x0000000000020afe       0x22 obj/L5_Application/SRAM.o
  .rodata._Z6setCmdc.str1.1
-                0x0000000000020b11        0x8 obj/L5_Application/SRAM.o
- *fill*         0x0000000000020b19        0x3 ff
+                0x0000000000020b20        0x8 obj/L5_Application/SRAM.o
  .rodata._ZTIN10__cxxabiv117__class_type_infoE
-                0x0000000000020b1c        0xc /home/akashv/Documents/CmpE127/SJSU-Dev/tools/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/libstdc++_nano.a(class_type_info.o)
-                0x0000000000020b1c                typeinfo for __cxxabiv1::__class_type_info
+                0x0000000000020b28        0xc /home/akashv/Documents/CmpE127/SJSU-Dev/tools/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/libstdc++_nano.a(class_type_info.o)
+                0x0000000000020b28                typeinfo for __cxxabiv1::__class_type_info
  .rodata._ZTSN10__cxxabiv117__class_type_infoE
-                0x0000000000020b28       0x22 /home/akashv/Documents/CmpE127/SJSU-Dev/tools/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/libstdc++_nano.a(class_type_info.o)
-                0x0000000000020b28                typeinfo name for __cxxabiv1::__class_type_info
- *fill*         0x0000000000020b4a        0x2 ff
+                0x0000000000020b34       0x22 /home/akashv/Documents/CmpE127/SJSU-Dev/tools/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/libstdc++_nano.a(class_type_info.o)
+                0x0000000000020b34                typeinfo name for __cxxabiv1::__class_type_info
+ *fill*         0x0000000000020b56        0x2 ff
  .rodata._ZTVN10__cxxabiv117__class_type_infoE
-                0x0000000000020b4c       0x2c /home/akashv/Documents/CmpE127/SJSU-Dev/tools/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/libstdc++_nano.a(class_type_info.o)
-                0x0000000000020b4c                vtable for __cxxabiv1::__class_type_info
+                0x0000000000020b58       0x2c /home/akashv/Documents/CmpE127/SJSU-Dev/tools/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/libstdc++_nano.a(class_type_info.o)
+                0x0000000000020b58                vtable for __cxxabiv1::__class_type_info
  .rodata._ZTIN10__cxxabiv120__si_class_type_infoE
-                0x0000000000020b78        0xc /home/akashv/Documents/CmpE127/SJSU-Dev/tools/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/libstdc++_nano.a(si_class_type_info.o)
-                0x0000000000020b78                typeinfo for __cxxabiv1::__si_class_type_info
+                0x0000000000020b84        0xc /home/akashv/Documents/CmpE127/SJSU-Dev/tools/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/libstdc++_nano.a(si_class_type_info.o)
+                0x0000000000020b84                typeinfo for __cxxabiv1::__si_class_type_info
  .rodata._ZTSN10__cxxabiv120__si_class_type_infoE
-                0x0000000000020b84       0x25 /home/akashv/Documents/CmpE127/SJSU-Dev/tools/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/libstdc++_nano.a(si_class_type_info.o)
-                0x0000000000020b84                typeinfo name for __cxxabiv1::__si_class_type_info
- *fill*         0x0000000000020ba9        0x3 ff
+                0x0000000000020b90       0x25 /home/akashv/Documents/CmpE127/SJSU-Dev/tools/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/libstdc++_nano.a(si_class_type_info.o)
+                0x0000000000020b90                typeinfo name for __cxxabiv1::__si_class_type_info
+ *fill*         0x0000000000020bb5        0x3 ff
  .rodata._ZTVN10__cxxabiv120__si_class_type_infoE
-                0x0000000000020bac       0x2c /home/akashv/Documents/CmpE127/SJSU-Dev/tools/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/libstdc++_nano.a(si_class_type_info.o)
-                0x0000000000020bac                vtable for __cxxabiv1::__si_class_type_info
+                0x0000000000020bb8       0x2c /home/akashv/Documents/CmpE127/SJSU-Dev/tools/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/libstdc++_nano.a(si_class_type_info.o)
+                0x0000000000020bb8                vtable for __cxxabiv1::__si_class_type_info
  .rodata._ZTIN10__cxxabiv121__vmi_class_type_infoE
-                0x0000000000020bd8        0xc /home/akashv/Documents/CmpE127/SJSU-Dev/tools/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/libstdc++_nano.a(vmi_class_type_info.o)
-                0x0000000000020bd8                typeinfo for __cxxabiv1::__vmi_class_type_info
+                0x0000000000020be4        0xc /home/akashv/Documents/CmpE127/SJSU-Dev/tools/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/libstdc++_nano.a(vmi_class_type_info.o)
+                0x0000000000020be4                typeinfo for __cxxabiv1::__vmi_class_type_info
  .rodata._ZTSN10__cxxabiv121__vmi_class_type_infoE
-                0x0000000000020be4       0x26 /home/akashv/Documents/CmpE127/SJSU-Dev/tools/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/libstdc++_nano.a(vmi_class_type_info.o)
-                0x0000000000020be4                typeinfo name for __cxxabiv1::__vmi_class_type_info
- *fill*         0x0000000000020c0a        0x2 ff
+                0x0000000000020bf0       0x26 /home/akashv/Documents/CmpE127/SJSU-Dev/tools/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/libstdc++_nano.a(vmi_class_type_info.o)
+                0x0000000000020bf0                typeinfo name for __cxxabiv1::__vmi_class_type_info
+ *fill*         0x0000000000020c16        0x2 ff
  .rodata._ZTVN10__cxxabiv121__vmi_class_type_infoE
-                0x0000000000020c0c       0x2c /home/akashv/Documents/CmpE127/SJSU-Dev/tools/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/libstdc++_nano.a(vmi_class_type_info.o)
-                0x0000000000020c0c                vtable for __cxxabiv1::__vmi_class_type_info
+                0x0000000000020c18       0x2c /home/akashv/Documents/CmpE127/SJSU-Dev/tools/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/libstdc++_nano.a(vmi_class_type_info.o)
+                0x0000000000020c18                vtable for __cxxabiv1::__vmi_class_type_info
  .rodata._ZTISt9type_info
-                0x0000000000020c38        0x8 /home/akashv/Documents/CmpE127/SJSU-Dev/tools/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/libstdc++_nano.a(tinfo.o)
-                0x0000000000020c38                typeinfo for std::type_info
+                0x0000000000020c44        0x8 /home/akashv/Documents/CmpE127/SJSU-Dev/tools/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/libstdc++_nano.a(tinfo.o)
+                0x0000000000020c44                typeinfo for std::type_info
  .rodata._ZTSSt9type_info
-                0x0000000000020c40        0xd /home/akashv/Documents/CmpE127/SJSU-Dev/tools/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/libstdc++_nano.a(tinfo.o)
-                0x0000000000020c40                typeinfo name for std::type_info
- *fill*         0x0000000000020c4d        0x3 ff
+                0x0000000000020c4c        0xd /home/akashv/Documents/CmpE127/SJSU-Dev/tools/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/libstdc++_nano.a(tinfo.o)
+                0x0000000000020c4c                typeinfo name for std::type_info
+ *fill*         0x0000000000020c59        0x3 ff
  .rodata.__sf_fake_stderr
-                0x0000000000020c50       0x20 /home/akashv/Documents/CmpE127/SJSU-Dev/tools/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/libc_nano.a(lib_a-findfp.o)
-                0x0000000000020c50                __sf_fake_stderr
+                0x0000000000020c5c       0x20 /home/akashv/Documents/CmpE127/SJSU-Dev/tools/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/libc_nano.a(lib_a-findfp.o)
+                0x0000000000020c5c                __sf_fake_stderr
  .rodata.__sf_fake_stdin
-                0x0000000000020c70       0x20 /home/akashv/Documents/CmpE127/SJSU-Dev/tools/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/libc_nano.a(lib_a-findfp.o)
-                0x0000000000020c70                __sf_fake_stdin
+                0x0000000000020c7c       0x20 /home/akashv/Documents/CmpE127/SJSU-Dev/tools/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/libc_nano.a(lib_a-findfp.o)
+                0x0000000000020c7c                __sf_fake_stdin
  .rodata.__sf_fake_stdout
-                0x0000000000020c90       0x20 /home/akashv/Documents/CmpE127/SJSU-Dev/tools/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/libc_nano.a(lib_a-findfp.o)
-                0x0000000000020c90                __sf_fake_stdout
+                0x0000000000020c9c       0x20 /home/akashv/Documents/CmpE127/SJSU-Dev/tools/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/libc_nano.a(lib_a-findfp.o)
+                0x0000000000020c9c                __sf_fake_stdout
  .rodata._global_impure_ptr
-                0x0000000000020cb0        0x4 /home/akashv/Documents/CmpE127/SJSU-Dev/tools/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/libc_nano.a(lib_a-impure.o)
-                0x0000000000020cb0                _global_impure_ptr
+                0x0000000000020cbc        0x4 /home/akashv/Documents/CmpE127/SJSU-Dev/tools/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/libc_nano.a(lib_a-impure.o)
+                0x0000000000020cbc                _global_impure_ptr
  .rodata._setlocale_r.str1.1
-                0x0000000000020cb4        0x8 /home/akashv/Documents/CmpE127/SJSU-Dev/tools/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/libc_nano.a(lib_a-locale.o)
+                0x0000000000020cc0        0x8 /home/akashv/Documents/CmpE127/SJSU-Dev/tools/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/libc_nano.a(lib_a-locale.o)
                                           0x9 (size before relaxing)
  .rodata.str1.1
-                0x0000000000020cbc        0x8 /home/akashv/Documents/CmpE127/SJSU-Dev/tools/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/libc_nano.a(lib_a-locale.o)
+                0x0000000000020cc8        0x8 /home/akashv/Documents/CmpE127/SJSU-Dev/tools/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/libc_nano.a(lib_a-locale.o)
                                           0x2 (size before relaxing)
  .rodata.DAYS_IN_MONTH
-                0x0000000000020cbc       0x30 /home/akashv/Documents/CmpE127/SJSU-Dev/tools/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/libc_nano.a(lib_a-mktime.o)
+                0x0000000000020cc8       0x30 /home/akashv/Documents/CmpE127/SJSU-Dev/tools/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/libc_nano.a(lib_a-mktime.o)
  .rodata._DAYS_BEFORE_MONTH
-                0x0000000000020cec       0x30 /home/akashv/Documents/CmpE127/SJSU-Dev/tools/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/libc_nano.a(lib_a-mktime.o)
+                0x0000000000020cf8       0x30 /home/akashv/Documents/CmpE127/SJSU-Dev/tools/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/libc_nano.a(lib_a-mktime.o)
  .rodata.__month_lengths
-                0x0000000000020d1c       0x60 /home/akashv/Documents/CmpE127/SJSU-Dev/tools/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/libc_nano.a(lib_a-month_lengths.o)
-                0x0000000000020d1c                __month_lengths
+                0x0000000000020d28       0x60 /home/akashv/Documents/CmpE127/SJSU-Dev/tools/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/libc_nano.a(lib_a-month_lengths.o)
+                0x0000000000020d28                __month_lengths
  .rodata._printf_float.str1.1
-                0x0000000000020d7c       0x10 /home/akashv/Documents/CmpE127/SJSU-Dev/tools/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/libc_nano.a(lib_a-nano-vfprintf_float.o)
+                0x0000000000020d88       0x10 /home/akashv/Documents/CmpE127/SJSU-Dev/tools/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/libc_nano.a(lib_a-nano-vfprintf_float.o)
                                          0x12 (size before relaxing)
  .rodata._printf_i.str1.1
-                0x0000000000020d8c       0x22 /home/akashv/Documents/CmpE127/SJSU-Dev/tools/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/libc_nano.a(lib_a-nano-vfprintf_i.o)
+                0x0000000000020d98       0x22 /home/akashv/Documents/CmpE127/SJSU-Dev/tools/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/libc_nano.a(lib_a-nano-vfprintf_i.o)
  .rodata._scanf_float.str1.1
-                0x0000000000020dae        0x5 /home/akashv/Documents/CmpE127/SJSU-Dev/tools/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/libc_nano.a(lib_a-nano-vfscanf_float.o)
+                0x0000000000020dba        0x5 /home/akashv/Documents/CmpE127/SJSU-Dev/tools/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/libc_nano.a(lib_a-nano-vfscanf_float.o)
  .rodata._strtod_l.str1.1
-                0x0000000000020db3        0x5 /home/akashv/Documents/CmpE127/SJSU-Dev/tools/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/libc_nano.a(lib_a-strtod.o)
+                0x0000000000020dbf        0x5 /home/akashv/Documents/CmpE127/SJSU-Dev/tools/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/libc_nano.a(lib_a-strtod.o)
                                           0xc (size before relaxing)
- *fill*         0x0000000000020db3        0x1 ff
+ *fill*         0x0000000000020dbf        0x1 ff
  .rodata.fpi.6129
-                0x0000000000020db4       0x14 /home/akashv/Documents/CmpE127/SJSU-Dev/tools/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/libc_nano.a(lib_a-strtod.o)
+                0x0000000000020dc0       0x14 /home/akashv/Documents/CmpE127/SJSU-Dev/tools/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/libc_nano.a(lib_a-strtod.o)
  .rodata.fpinan.6165
-                0x0000000000020dc8       0x14 /home/akashv/Documents/CmpE127/SJSU-Dev/tools/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/libc_nano.a(lib_a-strtod.o)
- *fill*         0x0000000000020ddc        0x4 ff
+                0x0000000000020dd4       0x14 /home/akashv/Documents/CmpE127/SJSU-Dev/tools/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/libc_nano.a(lib_a-strtod.o)
  .rodata.tinytens
-                0x0000000000020de0       0x28 /home/akashv/Documents/CmpE127/SJSU-Dev/tools/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/libc_nano.a(lib_a-strtod.o)
+                0x0000000000020de8       0x28 /home/akashv/Documents/CmpE127/SJSU-Dev/tools/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/libc_nano.a(lib_a-strtod.o)
  .rodata._tzset_unlocked_r.str1.1
-                0x0000000000020e08       0x3c /home/akashv/Documents/CmpE127/SJSU-Dev/tools/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/libc_nano.a(lib_a-tzset_r.o)
+                0x0000000000020e10       0x3c /home/akashv/Documents/CmpE127/SJSU-Dev/tools/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/libc_nano.a(lib_a-tzset_r.o)
                                          0x4e (size before relaxing)
  .rodata.str1.1
-                0x0000000000020e44        0x4 /home/akashv/Documents/CmpE127/SJSU-Dev/tools/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/libc_nano.a(lib_a-tzvars.o)
+                0x0000000000020e4c        0x4 /home/akashv/Documents/CmpE127/SJSU-Dev/tools/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/libc_nano.a(lib_a-tzvars.o)
  .rodata._ctype_
-                0x0000000000020e44      0x101 /home/akashv/Documents/CmpE127/SJSU-Dev/tools/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/libc_nano.a(lib_a-ctype_.o)
-                0x0000000000020e44                _ctype_
+                0x0000000000020e4c      0x101 /home/akashv/Documents/CmpE127/SJSU-Dev/tools/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/libc_nano.a(lib_a-ctype_.o)
+                0x0000000000020e4c                _ctype_
  .rodata._dtoa_r.str1.1
-                0x0000000000020f45        0xd /home/akashv/Documents/CmpE127/SJSU-Dev/tools/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/libc_nano.a(lib_a-dtoa.o)
+                0x0000000000020f4d        0xd /home/akashv/Documents/CmpE127/SJSU-Dev/tools/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/libc_nano.a(lib_a-dtoa.o)
                                           0xf (size before relaxing)
- *fill*         0x0000000000020f52        0x6 ff
+ *fill*         0x0000000000020f5a        0x6 ff
  .rodata.__mprec_bigtens
-                0x0000000000020f58       0x28 /home/akashv/Documents/CmpE127/SJSU-Dev/tools/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/libc_nano.a(lib_a-mprec.o)
-                0x0000000000020f58                __mprec_bigtens
+                0x0000000000020f60       0x28 /home/akashv/Documents/CmpE127/SJSU-Dev/tools/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/libc_nano.a(lib_a-mprec.o)
+                0x0000000000020f60                __mprec_bigtens
  .rodata.__mprec_tens
-                0x0000000000020f80       0xc8 /home/akashv/Documents/CmpE127/SJSU-Dev/tools/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/libc_nano.a(lib_a-mprec.o)
-                0x0000000000020f80                __mprec_tens
+                0x0000000000020f88       0xc8 /home/akashv/Documents/CmpE127/SJSU-Dev/tools/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/libc_nano.a(lib_a-mprec.o)
+                0x0000000000020f88                __mprec_tens
  .rodata.p05.6047
-                0x0000000000021048        0xc /home/akashv/Documents/CmpE127/SJSU-Dev/tools/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/libc_nano.a(lib_a-mprec.o)
+                0x0000000000021050        0xc /home/akashv/Documents/CmpE127/SJSU-Dev/tools/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/libc_nano.a(lib_a-mprec.o)
  .rodata._svfprintf_r.str1.1
-                0x0000000000021054       0x11 /home/akashv/Documents/CmpE127/SJSU-Dev/tools/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/libc_nano.a(lib_a-nano-svfprintf.o)
+                0x000000000002105c       0x11 /home/akashv/Documents/CmpE127/SJSU-Dev/tools/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/libc_nano.a(lib_a-nano-svfprintf.o)
  .rodata.__ssvfscanf_r.str1.1
-                0x0000000000021065        0x4 /home/akashv/Documents/CmpE127/SJSU-Dev/tools/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/libc_nano.a(lib_a-nano-svfscanf.o)
+                0x000000000002106d        0x4 /home/akashv/Documents/CmpE127/SJSU-Dev/tools/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/libc_nano.a(lib_a-nano-svfscanf.o)
  .rodata._vfprintf_r.str1.1
-                0x0000000000021065       0x11 /home/akashv/Documents/CmpE127/SJSU-Dev/tools/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/libc_nano.a(lib_a-nano-vfprintf.o)
+                0x000000000002106d       0x11 /home/akashv/Documents/CmpE127/SJSU-Dev/tools/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/libc_nano.a(lib_a-nano-vfprintf.o)
  .rodata.__svfscanf_r.str1.1
-                0x0000000000021065        0x4 /home/akashv/Documents/CmpE127/SJSU-Dev/tools/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/libc_nano.a(lib_a-nano-vfscanf.o)
- *fill*         0x0000000000021065        0x3 ff
- .rodata        0x0000000000021068        0xc /home/akashv/Documents/CmpE127/SJSU-Dev/tools/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/libc_nano.a(lib_a-nano-vfscanf_i.o)
+                0x000000000002106d        0x4 /home/akashv/Documents/CmpE127/SJSU-Dev/tools/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/libc_nano.a(lib_a-nano-vfscanf.o)
+ *fill*         0x000000000002106d        0x3 ff
+ .rodata        0x0000000000021070        0xc /home/akashv/Documents/CmpE127/SJSU-Dev/tools/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/libc_nano.a(lib_a-nano-vfscanf_i.o)
  .rodata._scanf_i.str1.1
-                0x0000000000021074       0x12 /home/akashv/Documents/CmpE127/SJSU-Dev/tools/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/libc_nano.a(lib_a-nano-vfscanf_i.o)
+                0x000000000002107c       0x12 /home/akashv/Documents/CmpE127/SJSU-Dev/tools/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/libc_nano.a(lib_a-nano-vfscanf_i.o)
  .rodata.str1.1
-                0x0000000000021086        0x9 /home/akashv/Documents/CmpE127/SJSU-Dev/tools/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/libc_nano.a(lib_a-nano-vfscanf_i.o)
-                0x0000000000021090                . = ALIGN (0x4)
- *fill*         0x000000000002108f        0x1 ff
-                0x0000000000021090                . = ALIGN (0x4)
+                0x000000000002108e        0x9 /home/akashv/Documents/CmpE127/SJSU-Dev/tools/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/libc_nano.a(lib_a-nano-vfscanf_i.o)
+                0x0000000000021098                . = ALIGN (0x4)
+ *fill*         0x0000000000021097        0x1 ff
+                0x0000000000021098                . = ALIGN (0x4)
  *(.init)
-                0x0000000000021090                . = ALIGN (0x4)
-                0x0000000000021090                __preinit_array_start = .
+                0x0000000000021098                . = ALIGN (0x4)
+                0x0000000000021098                __preinit_array_start = .
  *(.preinit_array)
-                0x0000000000021090                __preinit_array_end = .
-                0x0000000000021090                . = ALIGN (0x4)
-                0x0000000000021090                __init_array_start = .
+                0x0000000000021098                __preinit_array_end = .
+                0x0000000000021098                . = ALIGN (0x4)
+                0x0000000000021098                __init_array_start = .
  *(SORT(.init_array.*))
  *(.init_array)
- .init_array    0x0000000000021090        0x4 obj/L5_Application/main.o
- .init_array    0x0000000000021094        0x4 obj/L5_Application/SRAM.o
-                0x0000000000021098                __init_array_end = .
+ .init_array    0x0000000000021098        0x4 obj/L5_Application/main.o
+ .init_array    0x000000000002109c        0x4 obj/L5_Application/SRAM.o
+                0x00000000000210a0                __init_array_end = .
  *(.fini)
-                0x0000000000021098                . = ALIGN (0x4)
+                0x00000000000210a0                . = ALIGN (0x4)
  *crtbegin.o(.ctors)
  *(EXCLUDE_FILE(*crtend.o) .ctors)
  *(SORT(.ctors.*))
  *crtend.o(.ctors)
-                0x0000000000021098                . = ALIGN (0x4)
+                0x00000000000210a0                . = ALIGN (0x4)
  *crtbegin.o(.dtors)
  *(EXCLUDE_FILE(*crtend.o) .dtors)
  *(SORT(.dtors.*))
  *crtend.o(.dtors)
-                0x0000000000021098                . = ALIGN (0x4)
-                0x0000000000021098                __symbol_table_start = .
+                0x00000000000210a0                . = ALIGN (0x4)
+                0x00000000000210a0                __symbol_table_start = .
  *(.symbol_table)
- .symbol_table  0x0000000000021098     0x2384 bin/firmware.sym.o
-                0x0000000000021098                APP_SYM_TABLE
-                0x000000000002341c                __symbol_table_end = .
+ .symbol_table  0x00000000000210a0     0x2384 bin/firmware.sym.o
+                0x00000000000210a0                APP_SYM_TABLE
+                0x0000000000023424                __symbol_table_end = .
 
-.glue_7         0x000000000002341c        0x0
- .glue_7        0x000000000002341c        0x0 linker stubs
+.glue_7         0x0000000000023424        0x0
+ .glue_7        0x0000000000023424        0x0 linker stubs
 
-.glue_7t        0x000000000002341c        0x0
- .glue_7t       0x000000000002341c        0x0 linker stubs
+.glue_7t        0x0000000000023424        0x0
+ .glue_7t       0x0000000000023424        0x0 linker stubs
 
-.vfp11_veneer   0x000000000002341c        0x0
- .vfp11_veneer  0x000000000002341c        0x0 linker stubs
+.vfp11_veneer   0x0000000000023424        0x0
+ .vfp11_veneer  0x0000000000023424        0x0 linker stubs
 
-.v4_bx          0x000000000002341c        0x0
- .v4_bx         0x000000000002341c        0x0 linker stubs
+.v4_bx          0x0000000000023424        0x0
+ .v4_bx         0x0000000000023424        0x0 linker stubs
 
-.iplt           0x000000000002341c        0x0
- .iplt          0x000000000002341c        0x0 bin/firmware.sym.o
+.iplt           0x0000000000023424        0x0
+ .iplt          0x0000000000023424        0x0 bin/firmware.sym.o
 
 .ARM.extab
  *(.ARM.extab* .gnu.linkonce.armextab.*)
-                0x000000000002341c                __exidx_start = .
+                0x0000000000023424                __exidx_start = .
 
-.ARM.exidx      0x000000000002341c        0x8
+.ARM.exidx      0x0000000000023424        0x8
  *(.ARM.exidx* .gnu.linkonce.armexidx.*)
- .ARM.exidx     0x000000000002341c        0x8 /home/akashv/Documents/CmpE127/SJSU-Dev/tools/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7-m/libgcc.a(_udivmoddi4.o)
-                0x0000000000023424                __exidx_end = .
-                0x0000000000023424                _etext = .
+ .ARM.exidx     0x0000000000023424        0x8 /home/akashv/Documents/CmpE127/SJSU-Dev/tools/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7-m/libgcc.a(_udivmoddi4.o)
+                0x000000000002342c                __exidx_end = .
+                0x000000000002342c                _etext = .
 
-.rel.dyn        0x0000000000023424        0x0
- .rel.iplt      0x0000000000023424        0x0 bin/firmware.sym.o
+.rel.dyn        0x000000000002342c        0x0
+ .rel.iplt      0x000000000002342c        0x0 bin/firmware.sym.o
 
 .uninit_RESERVED
  *(.bss.$RESERVED*)
 
-.data           0x000000002007c000      0x300 load address 0x0000000000023424
+.data           0x000000002007c000      0x300 load address 0x000000000002342c
  FILL mask 0xff
                 0x000000002007c000                _data = .
  *(vtable)
@@ -5229,10 +5227,10 @@ END GROUP
                 0x000000002007c300                . = ALIGN (0x4)
                 0x000000002007c300                _edata = .
 
-.igot.plt       0x000000002007c300        0x0 load address 0x0000000000023724
+.igot.plt       0x000000002007c300        0x0 load address 0x000000000002372c
  .igot.plt      0x000000002007c300        0x0 bin/firmware.sym.o
 
-.bss            0x000000002007c300      0x538 load address 0x0000000000023724
+.bss            0x000000002007c300      0x538 load address 0x000000000002372c
                 0x000000002007c300                _bss = .
  *(.bss*)
  .bss.uxCriticalNesting
@@ -5757,7 +5755,7 @@ OUTPUT(bin/firmware.symbols.elf elf32-littlearm)
  .debug_aranges
                 0x0000000000001988       0x88 obj/L5_Application/SRAM.o
 
-.debug_line     0x0000000000000000    0x13f25
+.debug_line     0x0000000000000000    0x13f24
  .debug_line    0x0000000000000000       0x33 bin/firmware.sym.o
  .debug_line    0x0000000000000033      0x325 obj//home/akashv/Documents/CmpE127/SJSU-Dev/firmware/lib/L1_FreeRTOS/hooks/hooks.o
  .debug_line    0x0000000000000358      0x391 obj//home/akashv/Documents/CmpE127/SJSU-Dev/firmware/lib/L1_FreeRTOS/portable/no_mpu/port.o
@@ -5815,128 +5813,128 @@ OUTPUT(bin/firmware.symbols.elf elf32-littlearm)
  .debug_line    0x00000000000122e7      0x39d obj//home/akashv/Documents/CmpE127/SJSU-Dev/firmware/lib/L3_Utils/src/printf_lib.o
  .debug_line    0x0000000000012684      0x569 obj//home/akashv/Documents/CmpE127/SJSU-Dev/firmware/lib/L3_Utils/src/rtc_alarm.o
  .debug_line    0x0000000000012bed      0x739 obj//home/akashv/Documents/CmpE127/SJSU-Dev/firmware/lib/L3_Utils/src/file_logger.o
- .debug_line    0x0000000000013326      0x55b obj/L5_Application/main.o
- .debug_line    0x0000000000013881      0x6a4 obj/L5_Application/SRAM.o
+ .debug_line    0x0000000000013326      0x55a obj/L5_Application/main.o
+ .debug_line    0x0000000000013880      0x6a4 obj/L5_Application/SRAM.o
 
-.debug_str      0x0000000000000000     0xe223
- .debug_str     0x0000000000000000      0x12a bin/firmware.sym.o
-                                        0x12f (size before relaxing)
- .debug_str     0x000000000000012a      0x1b2 obj//home/akashv/Documents/CmpE127/SJSU-Dev/firmware/lib/L1_FreeRTOS/hooks/hooks.o
+.debug_str      0x0000000000000000     0xe255
+ .debug_str     0x0000000000000000      0x126 bin/firmware.sym.o
+                                        0x12b (size before relaxing)
+ .debug_str     0x0000000000000126      0x1b2 obj//home/akashv/Documents/CmpE127/SJSU-Dev/firmware/lib/L1_FreeRTOS/hooks/hooks.o
                                         0x2df (size before relaxing)
- .debug_str     0x00000000000002dc      0x2d2 obj//home/akashv/Documents/CmpE127/SJSU-Dev/firmware/lib/L1_FreeRTOS/portable/no_mpu/port.o
+ .debug_str     0x00000000000002d8      0x2d2 obj//home/akashv/Documents/CmpE127/SJSU-Dev/firmware/lib/L1_FreeRTOS/portable/no_mpu/port.o
                                         0x483 (size before relaxing)
- .debug_str     0x00000000000005ae       0xdf obj//home/akashv/Documents/CmpE127/SJSU-Dev/firmware/lib/L1_FreeRTOS/portable/run_time_stats.o
+ .debug_str     0x00000000000005aa       0xdf obj//home/akashv/Documents/CmpE127/SJSU-Dev/firmware/lib/L1_FreeRTOS/portable/run_time_stats.o
                                         0x27a (size before relaxing)
- .debug_str     0x000000000000068d      0x3fa obj//home/akashv/Documents/CmpE127/SJSU-Dev/firmware/lib/L1_FreeRTOS/MemMang/freertos_mem_man.o
+ .debug_str     0x0000000000000689      0x3fa obj//home/akashv/Documents/CmpE127/SJSU-Dev/firmware/lib/L1_FreeRTOS/MemMang/freertos_mem_man.o
                                         0x64f (size before relaxing)
- .debug_str     0x0000000000000a87      0xe90 obj//home/akashv/Documents/CmpE127/SJSU-Dev/firmware/lib/L1_FreeRTOS/src/tasks.o
+ .debug_str     0x0000000000000a83      0xe90 obj//home/akashv/Documents/CmpE127/SJSU-Dev/firmware/lib/L1_FreeRTOS/src/tasks.o
                                        0x17a0 (size before relaxing)
- .debug_str     0x0000000000001917      0x4cb obj//home/akashv/Documents/CmpE127/SJSU-Dev/firmware/lib/L1_FreeRTOS/src/queue.o
+ .debug_str     0x0000000000001913      0x4cb obj//home/akashv/Documents/CmpE127/SJSU-Dev/firmware/lib/L1_FreeRTOS/src/queue.o
                                         0xe5a (size before relaxing)
- .debug_str     0x0000000000001de2       0x8d obj//home/akashv/Documents/CmpE127/SJSU-Dev/firmware/lib/L1_FreeRTOS/src/list.o
+ .debug_str     0x0000000000001dde       0x8d obj//home/akashv/Documents/CmpE127/SJSU-Dev/firmware/lib/L1_FreeRTOS/src/list.o
                                         0x717 (size before relaxing)
- .debug_str     0x0000000000001e6f      0x860 obj//home/akashv/Documents/CmpE127/SJSU-Dev/firmware/lib/L4_IO/wireless/src/nrf24L01Plus.o
+ .debug_str     0x0000000000001e6b      0x860 obj//home/akashv/Documents/CmpE127/SJSU-Dev/firmware/lib/L4_IO/wireless/src/nrf24L01Plus.o
                                         0xa6f (size before relaxing)
- .debug_str     0x00000000000026cf      0x82a obj//home/akashv/Documents/CmpE127/SJSU-Dev/firmware/lib/L4_IO/wireless/src/mesh.o
+ .debug_str     0x00000000000026cb      0x860 obj//home/akashv/Documents/CmpE127/SJSU-Dev/firmware/lib/L4_IO/wireless/src/mesh.o
                                         0xed2 (size before relaxing)
- .debug_str     0x0000000000002ef9      0x252 obj//home/akashv/Documents/CmpE127/SJSU-Dev/firmware/lib/L4_IO/wireless/src/wireless.o
+ .debug_str     0x0000000000002f2b      0x252 obj//home/akashv/Documents/CmpE127/SJSU-Dev/firmware/lib/L4_IO/wireless/src/wireless.o
                                         0xc75 (size before relaxing)
- .debug_str     0x000000000000314b       0x72 obj//home/akashv/Documents/CmpE127/SJSU-Dev/firmware/lib/L4_IO/fat/fatfs_time.o
+ .debug_str     0x000000000000317d       0x72 obj//home/akashv/Documents/CmpE127/SJSU-Dev/firmware/lib/L4_IO/fat/fatfs_time.o
                                         0x1ea (size before relaxing)
- .debug_str     0x00000000000031bd      0x614 obj//home/akashv/Documents/CmpE127/SJSU-Dev/firmware/lib/L4_IO/fat/ff.o
+ .debug_str     0x00000000000031ef      0x614 obj//home/akashv/Documents/CmpE127/SJSU-Dev/firmware/lib/L4_IO/fat/ff.o
                                         0x865 (size before relaxing)
- .debug_str     0x00000000000037d1      0x1bd obj//home/akashv/Documents/CmpE127/SJSU-Dev/firmware/lib/L4_IO/fat/disk/sd.o
+ .debug_str     0x0000000000003803      0x1bd obj//home/akashv/Documents/CmpE127/SJSU-Dev/firmware/lib/L4_IO/fat/disk/sd.o
                                         0x58b (size before relaxing)
- .debug_str     0x000000000000398e      0x610 obj//home/akashv/Documents/CmpE127/SJSU-Dev/firmware/lib/L4_IO/fat/disk/spi_flash.o
+ .debug_str     0x00000000000039c0      0x610 obj//home/akashv/Documents/CmpE127/SJSU-Dev/firmware/lib/L4_IO/fat/disk/spi_flash.o
                                         0xfce (size before relaxing)
- .debug_str     0x0000000000003f9e       0x83 obj//home/akashv/Documents/CmpE127/SJSU-Dev/firmware/lib/L4_IO/fat/disk/diskio.o
+ .debug_str     0x0000000000003fd0       0x83 obj//home/akashv/Documents/CmpE127/SJSU-Dev/firmware/lib/L4_IO/fat/disk/diskio.o
                                         0x30e (size before relaxing)
- .debug_str     0x0000000000004021       0x61 obj//home/akashv/Documents/CmpE127/SJSU-Dev/firmware/lib/L4_IO/fat/option/reentrant.o
+ .debug_str     0x0000000000004053       0x61 obj//home/akashv/Documents/CmpE127/SJSU-Dev/firmware/lib/L4_IO/fat/option/reentrant.o
                                         0x6c7 (size before relaxing)
- .debug_str     0x0000000000004082       0x63 obj//home/akashv/Documents/CmpE127/SJSU-Dev/firmware/lib/L4_IO/fat/option/ccsbcs.o
+ .debug_str     0x00000000000040b4       0x63 obj//home/akashv/Documents/CmpE127/SJSU-Dev/firmware/lib/L4_IO/fat/option/ccsbcs.o
                                         0x217 (size before relaxing)
- .debug_str     0x00000000000040e5     0x1727 obj//home/akashv/Documents/CmpE127/SJSU-Dev/firmware/lib/L4_IO/src/io_source.o
+ .debug_str     0x0000000000004117     0x1727 obj//home/akashv/Documents/CmpE127/SJSU-Dev/firmware/lib/L4_IO/src/io_source.o
                                        0x1b4c (size before relaxing)
- .debug_str     0x000000000000580c      0x302 obj//home/akashv/Documents/CmpE127/SJSU-Dev/firmware/lib/L4_IO/src/gpio.o
+ .debug_str     0x000000000000583e      0x302 obj//home/akashv/Documents/CmpE127/SJSU-Dev/firmware/lib/L4_IO/src/gpio.o
                                         0x74e (size before relaxing)
- .debug_str     0x0000000000005b0e      0x303 obj//home/akashv/Documents/CmpE127/SJSU-Dev/firmware/lib/L4_IO/src/storage.o
+ .debug_str     0x0000000000005b40      0x303 obj//home/akashv/Documents/CmpE127/SJSU-Dev/firmware/lib/L4_IO/src/storage.o
                                         0x79c (size before relaxing)
- .debug_str     0x0000000000005e11      0x37e obj//home/akashv/Documents/CmpE127/SJSU-Dev/firmware/lib/newlib/newlib_syscalls.o
+ .debug_str     0x0000000000005e43      0x37e obj//home/akashv/Documents/CmpE127/SJSU-Dev/firmware/lib/newlib/newlib_syscalls.o
                                         0xd14 (size before relaxing)
- .debug_str     0x000000000000618f       0xef obj//home/akashv/Documents/CmpE127/SJSU-Dev/firmware/lib/newlib/newlib_time.o
+ .debug_str     0x00000000000061c1       0xef obj//home/akashv/Documents/CmpE127/SJSU-Dev/firmware/lib/newlib/newlib_time.o
                                         0x723 (size before relaxing)
- .debug_str     0x000000000000627e       0x68 obj//home/akashv/Documents/CmpE127/SJSU-Dev/firmware/lib/newlib/malloc_lock.o
+ .debug_str     0x00000000000062b0       0x68 obj//home/akashv/Documents/CmpE127/SJSU-Dev/firmware/lib/newlib/malloc_lock.o
                                         0x21f (size before relaxing)
- .debug_str     0x00000000000062e6      0x37d obj//home/akashv/Documents/CmpE127/SJSU-Dev/firmware/lib/newlib/memory.o
+ .debug_str     0x0000000000006318      0x37d obj//home/akashv/Documents/CmpE127/SJSU-Dev/firmware/lib/newlib/memory.o
                                         0x9e3 (size before relaxing)
- .debug_str     0x0000000000006663     0x14f5 obj//home/akashv/Documents/CmpE127/SJSU-Dev/firmware/lib/L5_HighLevel/examples/examples.o
+ .debug_str     0x0000000000006695     0x14f5 obj//home/akashv/Documents/CmpE127/SJSU-Dev/firmware/lib/L5_HighLevel/examples/examples.o
                                        0x2ece (size before relaxing)
- .debug_str     0x0000000000007b58     0x137f obj//home/akashv/Documents/CmpE127/SJSU-Dev/firmware/lib/L5_HighLevel/source/remote.o
+ .debug_str     0x0000000000007b8a     0x137f obj//home/akashv/Documents/CmpE127/SJSU-Dev/firmware/lib/L5_HighLevel/source/remote.o
                                        0x3160 (size before relaxing)
- .debug_str     0x0000000000008ed7     0x1a32 obj//home/akashv/Documents/CmpE127/SJSU-Dev/firmware/lib/L5_HighLevel/source/terminal.o
+ .debug_str     0x0000000000008f09     0x1a32 obj//home/akashv/Documents/CmpE127/SJSU-Dev/firmware/lib/L5_HighLevel/source/terminal.o
                                        0x4518 (size before relaxing)
- .debug_str     0x000000000000a909      0x5e1 obj//home/akashv/Documents/CmpE127/SJSU-Dev/firmware/lib/L5_HighLevel/source/high_level_init.o
+ .debug_str     0x000000000000a93b      0x5e1 obj//home/akashv/Documents/CmpE127/SJSU-Dev/firmware/lib/L5_HighLevel/source/high_level_init.o
                                        0x2f5a (size before relaxing)
- .debug_str     0x000000000000aeea      0x34e obj//home/akashv/Documents/CmpE127/SJSU-Dev/firmware/lib/L0_LowLevel/source/low_level_init.o
+ .debug_str     0x000000000000af1c      0x34e obj//home/akashv/Documents/CmpE127/SJSU-Dev/firmware/lib/L0_LowLevel/source/low_level_init.o
                                         0xf42 (size before relaxing)
- .debug_str     0x000000000000b238      0x13d obj//home/akashv/Documents/CmpE127/SJSU-Dev/firmware/lib/L0_LowLevel/source/uart0_min.o
+ .debug_str     0x000000000000b26a      0x13d obj//home/akashv/Documents/CmpE127/SJSU-Dev/firmware/lib/L0_LowLevel/source/uart0_min.o
                                         0x6e7 (size before relaxing)
- .debug_str     0x000000000000b375       0x75 obj//home/akashv/Documents/CmpE127/SJSU-Dev/firmware/lib/L0_LowLevel/source/lpc_peripherals.o
+ .debug_str     0x000000000000b3a7       0x75 obj//home/akashv/Documents/CmpE127/SJSU-Dev/firmware/lib/L0_LowLevel/source/lpc_peripherals.o
                                         0x64c (size before relaxing)
- .debug_str     0x000000000000b3ea      0x164 obj//home/akashv/Documents/CmpE127/SJSU-Dev/firmware/lib/L0_LowLevel/source/core_cm3.o
+ .debug_str     0x000000000000b41c      0x164 obj//home/akashv/Documents/CmpE127/SJSU-Dev/firmware/lib/L0_LowLevel/source/core_cm3.o
                                         0x326 (size before relaxing)
- .debug_str     0x000000000000b54e      0x2c6 obj//home/akashv/Documents/CmpE127/SJSU-Dev/firmware/lib/L0_LowLevel/source/lpc_sys.o
+ .debug_str     0x000000000000b580      0x2c6 obj//home/akashv/Documents/CmpE127/SJSU-Dev/firmware/lib/L0_LowLevel/source/lpc_sys.o
                                        0x16db (size before relaxing)
- .debug_str     0x000000000000b814      0x2a7 obj//home/akashv/Documents/CmpE127/SJSU-Dev/firmware/lib/L0_LowLevel/source/startup.o
+ .debug_str     0x000000000000b846      0x2a7 obj//home/akashv/Documents/CmpE127/SJSU-Dev/firmware/lib/L0_LowLevel/source/startup.o
                                         0xe73 (size before relaxing)
- .debug_str     0x000000000000babb      0x145 obj//home/akashv/Documents/CmpE127/SJSU-Dev/firmware/lib/L0_LowLevel/source/sys_clock.o
+ .debug_str     0x000000000000baed      0x145 obj//home/akashv/Documents/CmpE127/SJSU-Dev/firmware/lib/L0_LowLevel/source/sys_clock.o
                                         0x46b (size before relaxing)
- .debug_str     0x000000000000bc00      0x422 obj//home/akashv/Documents/CmpE127/SJSU-Dev/firmware/lib/L2_Drivers/base/uart_dev.o
+ .debug_str     0x000000000000bc32      0x422 obj//home/akashv/Documents/CmpE127/SJSU-Dev/firmware/lib/L2_Drivers/base/uart_dev.o
                                        0x1125 (size before relaxing)
- .debug_str     0x000000000000c022      0x235 obj//home/akashv/Documents/CmpE127/SJSU-Dev/firmware/lib/L2_Drivers/base/i2c_base.o
+ .debug_str     0x000000000000c054      0x235 obj//home/akashv/Documents/CmpE127/SJSU-Dev/firmware/lib/L2_Drivers/base/i2c_base.o
                                        0x1237 (size before relaxing)
- .debug_str     0x000000000000c257      0x213 obj//home/akashv/Documents/CmpE127/SJSU-Dev/firmware/lib/L2_Drivers/base/char_dev.o
+ .debug_str     0x000000000000c289      0x213 obj//home/akashv/Documents/CmpE127/SJSU-Dev/firmware/lib/L2_Drivers/base/char_dev.o
                                         0xc21 (size before relaxing)
- .debug_str     0x000000000000c46a      0x122 obj//home/akashv/Documents/CmpE127/SJSU-Dev/firmware/lib/L2_Drivers/src/lpc_rit.o
+ .debug_str     0x000000000000c49c      0x122 obj//home/akashv/Documents/CmpE127/SJSU-Dev/firmware/lib/L2_Drivers/src/lpc_rit.o
                                         0x804 (size before relaxing)
- .debug_str     0x000000000000c58c       0x92 obj//home/akashv/Documents/CmpE127/SJSU-Dev/firmware/lib/L2_Drivers/src/lpc_timers.o
+ .debug_str     0x000000000000c5be       0x92 obj//home/akashv/Documents/CmpE127/SJSU-Dev/firmware/lib/L2_Drivers/src/lpc_timers.o
                                         0x56b (size before relaxing)
- .debug_str     0x000000000000c61e       0x75 obj//home/akashv/Documents/CmpE127/SJSU-Dev/firmware/lib/L2_Drivers/src/rtc.o
+ .debug_str     0x000000000000c650       0x75 obj//home/akashv/Documents/CmpE127/SJSU-Dev/firmware/lib/L2_Drivers/src/rtc.o
                                         0x96a (size before relaxing)
- .debug_str     0x000000000000c693      0x169 obj//home/akashv/Documents/CmpE127/SJSU-Dev/firmware/lib/L2_Drivers/src/adc.o
+ .debug_str     0x000000000000c6c5      0x169 obj//home/akashv/Documents/CmpE127/SJSU-Dev/firmware/lib/L2_Drivers/src/adc.o
                                         0x92e (size before relaxing)
- .debug_str     0x000000000000c7fc       0xf0 obj//home/akashv/Documents/CmpE127/SJSU-Dev/firmware/lib/L2_Drivers/src/uart0.o
+ .debug_str     0x000000000000c82e       0xf0 obj//home/akashv/Documents/CmpE127/SJSU-Dev/firmware/lib/L2_Drivers/src/uart0.o
                                         0x7b0 (size before relaxing)
- .debug_str     0x000000000000c8ec      0x1fb obj//home/akashv/Documents/CmpE127/SJSU-Dev/firmware/lib/L2_Drivers/src/eint.o
+ .debug_str     0x000000000000c91e      0x1fb obj//home/akashv/Documents/CmpE127/SJSU-Dev/firmware/lib/L2_Drivers/src/eint.o
                                         0xa75 (size before relaxing)
- .debug_str     0x000000000000cae7      0x711 obj//home/akashv/Documents/CmpE127/SJSU-Dev/firmware/lib/L2_Drivers/src/can.o
+ .debug_str     0x000000000000cb19      0x711 obj//home/akashv/Documents/CmpE127/SJSU-Dev/firmware/lib/L2_Drivers/src/can.o
                                        0x1457 (size before relaxing)
- .debug_str     0x000000000000d1f8      0x1a2 obj//home/akashv/Documents/CmpE127/SJSU-Dev/firmware/lib/L2_Drivers/src/uart2.o
+ .debug_str     0x000000000000d22a      0x1a2 obj//home/akashv/Documents/CmpE127/SJSU-Dev/firmware/lib/L2_Drivers/src/uart2.o
                                         0x74e (size before relaxing)
- .debug_str     0x000000000000d39a       0x58 obj//home/akashv/Documents/CmpE127/SJSU-Dev/firmware/lib/L2_Drivers/src/spi_sem.o
+ .debug_str     0x000000000000d3cc       0x58 obj//home/akashv/Documents/CmpE127/SJSU-Dev/firmware/lib/L2_Drivers/src/spi_sem.o
                                         0x2ac (size before relaxing)
- .debug_str     0x000000000000d3f2      0x1ed obj//home/akashv/Documents/CmpE127/SJSU-Dev/firmware/lib/L2_Drivers/src/spi_dma.o
+ .debug_str     0x000000000000d424      0x1ed obj//home/akashv/Documents/CmpE127/SJSU-Dev/firmware/lib/L2_Drivers/src/spi_dma.o
                                         0x4fc (size before relaxing)
- .debug_str     0x000000000000d5df       0xca obj//home/akashv/Documents/CmpE127/SJSU-Dev/firmware/lib/L2_Drivers/src/i2c2.o
+ .debug_str     0x000000000000d611       0xca obj//home/akashv/Documents/CmpE127/SJSU-Dev/firmware/lib/L2_Drivers/src/i2c2.o
                                        0x1070 (size before relaxing)
- .debug_str     0x000000000000d6a9      0x1a2 obj//home/akashv/Documents/CmpE127/SJSU-Dev/firmware/lib/L2_Drivers/src/uart3.o
+ .debug_str     0x000000000000d6db      0x1a2 obj//home/akashv/Documents/CmpE127/SJSU-Dev/firmware/lib/L2_Drivers/src/uart3.o
                                         0x74e (size before relaxing)
- .debug_str     0x000000000000d84b      0x143 obj//home/akashv/Documents/CmpE127/SJSU-Dev/firmware/lib/L3_Utils/tlm/src/c_tlm_comp.o
+ .debug_str     0x000000000000d87d      0x143 obj//home/akashv/Documents/CmpE127/SJSU-Dev/firmware/lib/L3_Utils/tlm/src/c_tlm_comp.o
                                         0x70b (size before relaxing)
- .debug_str     0x000000000000d98e       0x7b obj//home/akashv/Documents/CmpE127/SJSU-Dev/firmware/lib/L3_Utils/src/utilities.o
+ .debug_str     0x000000000000d9c0       0x7b obj//home/akashv/Documents/CmpE127/SJSU-Dev/firmware/lib/L3_Utils/src/utilities.o
                                         0x684 (size before relaxing)
- .debug_str     0x000000000000da09      0x137 obj//home/akashv/Documents/CmpE127/SJSU-Dev/firmware/lib/L3_Utils/src/c_list.o
+ .debug_str     0x000000000000da3b      0x137 obj//home/akashv/Documents/CmpE127/SJSU-Dev/firmware/lib/L3_Utils/src/c_list.o
                                         0x748 (size before relaxing)
- .debug_str     0x000000000000db40       0x7e obj//home/akashv/Documents/CmpE127/SJSU-Dev/firmware/lib/L3_Utils/src/printf_lib.o
+ .debug_str     0x000000000000db72       0x7e obj//home/akashv/Documents/CmpE127/SJSU-Dev/firmware/lib/L3_Utils/src/printf_lib.o
                                         0x6e6 (size before relaxing)
- .debug_str     0x000000000000dbbe      0x11e obj//home/akashv/Documents/CmpE127/SJSU-Dev/firmware/lib/L3_Utils/src/rtc_alarm.o
+ .debug_str     0x000000000000dbf0      0x11e obj//home/akashv/Documents/CmpE127/SJSU-Dev/firmware/lib/L3_Utils/src/rtc_alarm.o
                                         0xbe1 (size before relaxing)
- .debug_str     0x000000000000dcdc      0x30e obj//home/akashv/Documents/CmpE127/SJSU-Dev/firmware/lib/L3_Utils/src/file_logger.o
+ .debug_str     0x000000000000dd0e      0x30e obj//home/akashv/Documents/CmpE127/SJSU-Dev/firmware/lib/L3_Utils/src/file_logger.o
                                         0xd41 (size before relaxing)
- .debug_str     0x000000000000dfea       0xb5 obj/L5_Application/main.o
-                                       0x10f4 (size before relaxing)
- .debug_str     0x000000000000e09f      0x184 obj/L5_Application/SRAM.o
-                                       0x14aa (size before relaxing)
+ .debug_str     0x000000000000e01c       0xb5 obj/L5_Application/main.o
+                                       0x10f0 (size before relaxing)
+ .debug_str     0x000000000000e0d1      0x184 obj/L5_Application/SRAM.o
+                                       0x14a6 (size before relaxing)
 
 .comment        0x0000000000000000       0x7f
  .comment       0x0000000000000000       0x7f bin/firmware.sym.o

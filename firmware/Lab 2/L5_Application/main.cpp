@@ -2,7 +2,7 @@
 #include "utilities.h"
 #include "io.hpp"
 #include "gpio.hpp"
-#include "SRAM.h"
+#include "SRAM.hpp"
 
 
 
@@ -20,7 +20,7 @@ int main(void){
     int choice = 0;
     while(1){
         initialize();
-        printf("******* Menu ********\n");
+        printf("\n******* Menu ********\n");
         printf("1) Write\n");
         printf("2) Read\n");
         printf("3) Exit");
