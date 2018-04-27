@@ -36,7 +36,7 @@ obj/L5_Application/main.o: L5_Application/main.cpp \
  /home/akashv/Documents/CmpE127/SJSU-Dev/firmware/lib/L4_IO/switches.hpp \
  /home/akashv/Documents/CmpE127/SJSU-Dev/firmware/lib/L4_IO/temperature_sensor.hpp \
  /home/akashv/Documents/CmpE127/SJSU-Dev/firmware/lib/L4_IO/gpio.hpp \
- L5_Application/SRAM.h
+ L5_Application/SRAM.hpp
 
 /home/akashv/Documents/CmpE127/SJSU-Dev/firmware/lib/L3_Utils/utilities.h:
 
@@ -112,4 +112,4 @@ obj/L5_Application/main.o: L5_Application/main.cpp \
 
 /home/akashv/Documents/CmpE127/SJSU-Dev/firmware/lib/L4_IO/gpio.hpp:
 
-L5_Application/SRAM.h:
+L5_Application/SRAM.hpp:

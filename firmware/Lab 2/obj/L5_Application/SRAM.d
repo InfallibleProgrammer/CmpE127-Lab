@@ -1,4 +1,5 @@
-obj/L5_Application/SRAM.o: L5_Application/SRAM.cpp L5_Application/SRAM.h \
+obj/L5_Application/SRAM.o: L5_Application/SRAM.cpp \
+ L5_Application/SRAM.hpp \
  /home/akashv/Documents/CmpE127/SJSU-Dev/firmware/lib/L4_IO/io.hpp \
  /home/akashv/Documents/CmpE127/SJSU-Dev/firmware/lib/L4_IO/acceleration_sensor.hpp \
  /home/akashv/Documents/CmpE127/SJSU-Dev/firmware/lib/L4_IO/i2c2_device.hpp \
@@ -37,7 +38,7 @@ obj/L5_Application/SRAM.o: L5_Application/SRAM.cpp L5_Application/SRAM.h \
  /home/akashv/Documents/CmpE127/SJSU-Dev/firmware/lib/L4_IO/gpio.hpp \
  /home/akashv/Documents/CmpE127/SJSU-Dev/firmware/lib/L3_Utils/utilities.h
 
-L5_Application/SRAM.h:
+L5_Application/SRAM.hpp:
 
 /home/akashv/Documents/CmpE127/SJSU-Dev/firmware/lib/L4_IO/io.hpp:
 

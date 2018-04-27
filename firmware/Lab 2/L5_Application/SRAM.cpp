@@ -155,8 +155,8 @@ void setAddr(char byte)
     cmd_w.setLow();
     addr_w.setHigh();
     write(byte);
-
     addr_w.setLow();
+    bus_e.setHigh();
 }
 
 void setDataOut(char byte)
